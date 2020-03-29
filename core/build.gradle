@@ -1,7 +1,18 @@
 [compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
 eclipse.project.name = appName + '-core'
 
+sourceSets {
+	test {
+		java {
+			exclude '/**'
+		}
+	}
+}
+
 dependencies {
 	api "com.badlogicgames.gdx:gdx:$gdxVersion"
 	api "com.badlogicgames.gdx:gdx-ai:$aiVersion"
+	implementation "space.earlygrey:shapedrawer:$shapeDrawerVersion"
+	implementation "com.github.VabrantGames:ActionSystem:$actionSystemVersion"
+	//implementation "com.github.Anuken:GdxGifRecorder:1.4"
 }

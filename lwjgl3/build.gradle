@@ -14,6 +14,14 @@ dependencies {
 
 import org.gradle.internal.os.OperatingSystem
 
+sourceSets {
+	test {
+		java{
+			exclude '/**'
+		}
+	}
+}
+
 run {
 	workingDir = rootProject.file('assets').path
 	setIgnoreExitValue(true)

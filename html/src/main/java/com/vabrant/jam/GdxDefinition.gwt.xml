@@ -5,6 +5,8 @@
 	<inherits name="com.badlogic.gdx.backends.gdx_backends_gwt" />
 	<inherits name="com.badlogic.gdx.ai" />
 	<inherits name="com.vabrant.jam.ThermonuclearWar" />
+	<inherits name="space.earlygrey.shapedrawer">
+	</inherits>
 	<entry-point class="com.vabrant.jam.gwt.GwtLauncher" />
 	<set-configuration-property name="gdx.assetpath" value="../assets" />
 	<set-configuration-property name="xsiframe.failIfScriptTag" value="FALSE"/>

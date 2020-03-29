@@ -1,9 +1,11 @@
-apply plugin: 'application'
+//apply plugin: 'application'
 
 sourceSets.main.resources.srcDirs += [ rootProject.file('assets').path ]
-mainClassName = 'com.vabrant.jam.desktop.DesktopLauncher'
+ext.mainClassName = 'com.vabrant.jam.desktop.DesktopLauncher'
 eclipse.project.name = appName + '-desktop'
 sourceCompatibility = 1.8
+
+project.ext.assetsDir = new File("../android/assets")
 
 dependencies {
 	api project(':core')
@@ -12,14 +14,27 @@ dependencies {
 	api "com.badlogicgames.gdx:gdx-tools:$gdxVersion"
 }
 
-jar {
+/*jar {
 	archiveFileName = "${appName}-${version}.jar"
 	from { configurations.compileClasspath.collect { it.isDirectory() ? it : zipTree(it) } } 
 	manifest {
 		attributes 'Main-Class': project.mainClassName
 	}
+}*/
+
+task dist(type: Jar) {
+    from files(sourceSets.main.output.classesDirs)
+    from files(sourceSets.main.output.resourcesDir)
+    from {configurations.compile.collect {zipTree(it)}}
+    from files(project.assetsDir);
+ 
+    manifest {
+        attributes 'Main-Class': project.mainClassName
+    }
 }
 
-run {
+dist.dependsOn classes
+
+/*run {
 	ignoreExitValue = true
-}
+}*/

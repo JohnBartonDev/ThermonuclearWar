@@ -1,0 +1,209 @@
+
+game.png
+size: 2048,1024
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+0
+  rotate: false
+  xy: 503, 321
+  size: 89, 102
+  orig: 89, 102
+  offset: 0, 0
+  index: -1
+1
+  rotate: false
+  xy: 831, 320
+  size: 62, 103
+  orig: 62, 103
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 754, 321
+  size: 75, 102
+  orig: 75, 102
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 1165, 541
+  size: 80, 106
+  orig: 80, 106
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 594, 318
+  size: 79, 105
+  orig: 79, 105
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 1005, 426
+  size: 84, 104
+  orig: 84, 104
+  offset: 0, 0
+  index: -1
+6
+  rotate: false
+  xy: 421, 210
+  size: 79, 106
+  orig: 79, 106
+  offset: 0, 0
+  index: -1
+7
+  rotate: false
+  xy: 1091, 429
+  size: 69, 101
+  orig: 69, 101
+  offset: 0, 0
+  index: -1
+8
+  rotate: false
+  xy: 675, 322
+  size: 77, 101
+  orig: 77, 101
+  offset: 0, 0
+  index: -1
+9
+  rotate: false
+  xy: 1714, 720
+  size: 79, 106
+  orig: 79, 106
+  offset: 0, 0
+  index: -1
+c
+  rotate: false
+  xy: 1795, 783
+  size: 23, 43
+  orig: 23, 43
+  offset: 0, 0
+  index: -1
+chopper
+  rotate: false
+  xy: 1005, 649
+  size: 247, 177
+  orig: 247, 177
+  offset: 0, 0
+  index: -1
+chopperIcon
+  rotate: false
+  xy: 1005, 532
+  size: 158, 115
+  orig: 158, 115
+  offset: 0, 0
+  index: -1
+government
+  rotate: false
+  xy: 2, 179
+  size: 259, 244
+  orig: 259, 244
+  offset: 0, 0
+  index: -1
+hills
+  rotate: false
+  xy: 2, 425
+  size: 1001, 401
+  orig: 1001, 401
+  offset: 0, 0
+  index: -1
+keybindHud
+  rotate: false
+  xy: 1829, 926
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+max
+  rotate: false
+  xy: 263, 318
+  size: 238, 105
+  orig: 238, 105
+  offset: 0, 0
+  index: -1
+nukeIcon
+  rotate: false
+  xy: 176, 34
+  size: 83, 143
+  orig: 83, 143
+  offset: 0, 0
+  index: -1
+pixel
+  rotate: false
+  xy: 2, 2
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+platformFront
+  rotate: false
+  xy: 2, 828
+  size: 1824, 68
+  orig: 1824, 68
+  offset: 0, 0
+  index: -1
+platformMain
+  rotate: false
+  xy: 2, 898
+  size: 1825, 100
+  orig: 1825, 100
+  offset: 0, 0
+  index: -1
+selectedHud
+  rotate: false
+  xy: 2, 5
+  size: 172, 172
+  orig: 172, 172
+  offset: 0, 0
+  index: -1
+ship
+  rotate: false
+  xy: 263, 201
+  size: 156, 115
+  orig: 156, 115
+  offset: 0, 0
+  index: -1
+shipIcon
+  rotate: false
+  xy: 1413, 712
+  size: 154, 114
+  orig: 154, 114
+  offset: 0, 0
+  index: -1
+tank
+  rotate: false
+  xy: 1254, 711
+  size: 157, 115
+  orig: 157, 115
+  offset: 0, 0
+  index: -1
+tankIcon
+  rotate: false
+  xy: 1569, 716
+  size: 143, 110
+  orig: 143, 110
+  offset: 0, 0
+  index: -1
+v
+  rotate: false
+  xy: 1254, 667
+  size: 26, 42
+  orig: 26, 42
+  offset: 0, 0
+  index: -1
+x
+  rotate: false
+  xy: 895, 381
+  size: 23, 42
+  orig: 23, 42
+  offset: 0, 0
+  index: -1
+z
+  rotate: false
+  xy: 1903, 956
+  size: 19, 42
+  orig: 19, 42
+  offset: 0, 0
+  index: -1

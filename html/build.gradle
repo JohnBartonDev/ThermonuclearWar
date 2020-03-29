@@ -43,7 +43,7 @@ dependencies {
 	api "com.badlogicgames.gdx:gdx-backend-gwt:$gdxVersion"
 	api "com.badlogicgames.gdx:gdx-backend-gwt:$gdxVersion:sources"
 	api "com.badlogicgames.gdx:gdx-ai:$aiVersion:sources"
-
+	implementation "space.earlygrey:shapedrawer:$shapedrawerVersion:sources"
 }
 
 task superDev(type: GwtSuperDev) {
